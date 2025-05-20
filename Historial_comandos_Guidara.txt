@@ -106,12 +106,7 @@ mkdir -p {materia1,materia2}/{uni1,uni2,uni3}
 tree
 cd ..
 tree
-cat <<'EOF' > ~/repogit/TP_AySO-Guidara/script_dir.sh
-for materia in materia1 materia2; do
-for uni in "$materia"/uni1 "$materia"/uni2 "$materia"/uni3; do
-done
-done
-EOF
+
 
 chmod +x ~/repogit/TP_AySO-Guidara/script_dir.sh
 cd TP_AySO-Guidara/
